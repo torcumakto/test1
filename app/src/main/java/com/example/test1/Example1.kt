@@ -1,24 +1,30 @@
 package com.example.test1
 
 fun main() {
-    max(10,3)
-
-}
-
-fun max(a:Int, b:Int) {
-    val result = if(a>b){
-        println(a)
-    } else {
-        println(b)
+    //todo for (i in 1 .. 10)
+    for(i in IntRange(1, 10)){
+    print(i)
+    print(".")
     }
-    println(result)
-}
+    println()
+    for(i in 1 until 10 ) {
+        print(i)
+        print(".")
+    }
+    for (i in 1 .. 10 step(2)){
+        print(i)
+        print(".")
+    }
+    for(i in 10 downTo 1){
+        print(i)
+        print(".")
+    }
+    println()
 
-fun max(a:Int, b:Int) {
-    val result = if(a>b) a else b
-    println(result)
-}
-
-fun isHoliday (dayOfWeek: String) {
-    when(val day = dayOfWeek)
+    var c =1
+    while(c < 11) {
+        print(c)
+        print(".")
+        c++
+    }
 }
