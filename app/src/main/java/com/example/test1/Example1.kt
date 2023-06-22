@@ -5,3 +5,5 @@ fun main() {
     list.add(6)
     list.addAll
 }
+
+torcumakto
