@@ -10,7 +10,7 @@ fun main() {
 
     list1.first { id = 10 }
 
-    val diverseList = listOf(1, "안녕", 1.78, true)
+    val diverseList = listOf(1, "안녕", 1.78, 123213213true)
     println(list.joinToString ("'"))
 
     val map = mapOf((1 to "안녕"),(2 to "hello"))
